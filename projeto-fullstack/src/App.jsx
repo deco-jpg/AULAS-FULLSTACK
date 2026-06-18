@@ -1,12 +1,13 @@
 import './App.css'
+
 import Header from './components/Header'
 import Footer from './components/Footer'
 
 import { Routes, Route } from 'react-router-dom'
 
-import HomePage from './pages/HomePage'
-import CadastroPage from './pages/CadastroPage'
-import ListaUsuariosPage from './pages/ListaUsuariosPage'
+import HomePage from './pages/HomePage/index.jsx'
+import CadastroPage from './pages/CadastroPage/index.jsx'
+import ListaUsuariosPage from './pages/ListaUsuariosPage/index.jsx'
 
 function App() {
   return (

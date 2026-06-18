@@ -1,0 +1,38 @@
+.footer {
+  margin-top: 60px;
+  padding: 24px 16px;
+  text-align: center;
+  background: #ffffff;
+  border-top: 1px solid #eef2f7;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Arial, sans-serif;
+  color: #6b7280;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* destaque leve no SENAI */
+.footer br + text,
+.footer p strong {
+  color: #111827;
+}
+
+/* efeito suave de entrada */
+.footer {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
